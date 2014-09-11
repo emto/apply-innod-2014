@@ -1,0 +1,128 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	text-align: center;
+	padding: 3px;
+	margin: 0px;
+}
+
+.container {
+	font-size: 0;
+	height: 100%;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.container .grid {
+	position: relative;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom:1; *display: inline; _height: 15px;
+	width: 32.8%;
+	height: 50%;
+	font-size: 1rem;
+	margin: 0px 0px 6px 6px;
+	padding: 30px;
+/*	margin-bottom: -3px;*/
+}
+
+.blue-wrapper {
+	border: 2px solid #008CCF;
+	height: 100%;
+	background: none;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.blue-wrapper:hover {
+	background-color: #008CCF;
+}
+
+.gold-wrapper {
+	border: 2px solid #FEBE10;
+	height: 100%;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.gold-wrapper:hover {
+	background-color: #FEBE10;
+}
+
+.web-wrapper {
+	border: 2px solid #C57BB4;
+	height: 100%;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.web-wrapper:hover {
+	background-color: #C57BB4;
+}
+
+.photo1-wrapper {
+	border: 2px solid #00A67F;
+	height: 100%;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.photo1-wrapper:hover {
+	background-color: #00A67F;
+}
+
+.photo2-wrapper {
+	border: 2px solid #F79131;
+	height: 100%;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.photo2-wrapper:hover {
+	background-color: #F79131;
+}
+
+.video-wrapper {
+	border: 2px solid #F15D5D;
+	height: 100%;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.video-wrapper:hover {
+	background-color: #F15D5D;
+}
+
+
+@media (max-width: 1040px) {
+	.container .grid {
+		width: 50%;
+		height: 400px;
+	}
+}
+
+@media (max-width: 800px) {
+	.container .grid {
+		width: 50%;
+		height: 48%;
+	}
+}
+
+@media (max-width: 630px) {
+	.container .grid {
+		width: 100%;
+	}
+}
