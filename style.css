@@ -196,6 +196,24 @@ html, body {
 	margin-top: 40px;
 }
 
+@media (min-width: 1300px) {
+	.wrapper {
+		padding: 0px 175px 40px 175px;
+	}
+}
+
+@media (min-width: 1460px) {
+	.wrapper {
+		padding: 0px 250px 40px 250px;
+	}
+}
+
+@media (min-width: 1735px) {
+	.wrapper {
+		padding: 0px 350px 40px 350px;
+	}
+}
+
 @media (max-width: 1010px) {
 	.wrapper {
 		padding: 0px 40px 40px 40px;
@@ -213,7 +231,7 @@ html, body {
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
 	.wrapper {
 		padding: 0px 0px 40px 0px;
 		top: 0;
